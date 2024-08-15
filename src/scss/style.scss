@@ -1,0 +1,37 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/animate.min';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+
+.divider{
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin: 25px auto 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/sidepanel';
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/consultation';
+@import 'blocks/menu';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+@import 'blocks/offers';
+@import'blocks/footer';

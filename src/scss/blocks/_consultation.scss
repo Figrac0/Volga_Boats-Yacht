@@ -1,0 +1,100 @@
+.consultation{
+    border-radius: 5px;
+    min-height: 380px; 
+    padding: 10px 30px 0px 30px;
+    background-color: #fff;
+    &__content {
+        text-align: center; /* Центруем текст */
+    }
+
+    &__descr{
+        text-align: left;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;
+        color: #000;
+    }
+    .error{
+        border: 1px solid red;
+    }
+    label.error{
+        color:#a83737;
+        border:none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    &__end{
+        padding: 20px 0 30px 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 114%;
+        text-align: center;
+        color:  #797979;
+    }
+    &__policy{
+        display: flex;
+        align-items: center;
+        line-height: 14px;
+        font-size:12px;
+        input{
+            position: relative;
+            top: 6px; 
+            margin-right: 10px;
+        }
+    }
+    
+}
+
+.title {
+    color: #0d0d0d;
+    font-size: 400px;
+    font-weight: 700;
+    text-align: center;
+    &_left {
+        font-weight: 500;
+        line-height: 29px;
+        font-size: 26px;
+        text-align: left;
+    }
+}
+
+.feed-form{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    input{
+        height: 50px;
+        
+        width: 292px;
+        border-radius: 5px;
+        background:#f0f0f0;;
+        margin-bottom: 15px;
+        border: none;
+        padding: 0 20px;
+        font-weight: 300;
+        font-size: 14px;  
+        color: #4b4b4b;
+        &:nth-child(3) {
+            margin-bottom: 20px;
+        }
+        
+    }
+    &_mt25{
+        margin-top: 25px;
+    }
+
+   
+    .input-field {
+        font-size: 18px; /* Размер шрифта для полей ввода */
+        
+    }
+    .input-field::placeholder {
+        opacity: 0.6; /* Устанавливаем прозрачность текста placeholder */
+    }
+    
+    
+}
+.iti__selected-flag {
+    background-color: #f0f0f0 !important; /* Изменение цвета флага на белый */
+}
